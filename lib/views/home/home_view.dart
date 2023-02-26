@@ -14,7 +14,7 @@ class HomeView extends StatelessWidget {
       body: CenteredView(
         child: Column(
           children: <Widget>[
-            const My_NavigationBar(),
+            const NavigationBar_(),
             Expanded(
               child: Row(
                 children: [
