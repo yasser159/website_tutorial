@@ -15,19 +15,17 @@ class NavigationBarTabletDesktop extends StatelessWidget {
         children: [
           const NavBarLogo(),
           Row(
-            //mainAxisSize: MainAxisSize.min,
-
+            mainAxisSize: MainAxisSize.min,
             children: [
-              NavBarItem('Episodes'),
+              const NavBarItem('Episodes'),
               const SizedBox(
                 width: 60,
               ),
-              NavBarItem('About'),
+              const NavBarItem('About'),
             ],
           )
         ],
       ),
     );
-    ;
   }
 }
