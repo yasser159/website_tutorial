@@ -28,6 +28,7 @@ flutter:
 
 assets:
   - '/logo.jpg'
+  - '/clown.jpeg'
 
 fonts: 
 - family: Open Sans 

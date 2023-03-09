@@ -30,7 +30,7 @@ class CourseDetails extends StatelessWidget {
             // ignore: prefer_const_literals_to_create_immutables
             children: [
               Text(
-                'FLUTTER WEB. \nTHE BASICS',
+                'FLUTTER Developer',
                 style: TextStyle(
                     fontWeight: FontWeight.w800,
                     height: 0.9,
@@ -38,7 +38,7 @@ class CourseDetails extends StatelessWidget {
               ),
               const SizedBox(height: 30),
               Text(
-                'In this course we will go over the basics of using Flutter Web for website development. Topics will include Responsive Layout, Deploying, Font Changes, Hover Functionality, Modals and more.',
+                'I make Apps',
                 style: TextStyle(fontSize: descriptionSize, height: 1.7),
                 textAlign: textAlignment,
               ),
